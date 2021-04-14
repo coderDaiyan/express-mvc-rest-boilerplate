@@ -1,0 +1,36 @@
+{
+  "name": "express-mvc-rest-boilerplate",
+  "description": "This is a boileplate template for building restful apis using express js (MVC Pattern) , Database, Routes,Middlewares separated for easier maintenance . Awesome configuration & error handling system applied", 
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "express",
+    "mvc",
+    "rest",
+    "restful",
+    "nodejs crud",
+    "express crud",
+    "api",
+    "mvc crud",
+    "mvc crud boileplate"
+  ],
+   "contributors": [
+    "Samayun Chowdhury <samayun.m.chowdhury@gmail.com>"
+  ],
+  "dependencies": {
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3"
+  },
+  "scripts": {
+    "start": "node index",
+    "start:dev": "NODE_ENV=developement && nodemon index",
+    "start:prod": "NODE_ENV=production && node index"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
